@@ -1,7 +1,7 @@
 {
   "name": "ragingwind",
   "version": "1.0.0",
-  "description": "Return @ragingwind birthday",
+  "description": "About ragingwind",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"

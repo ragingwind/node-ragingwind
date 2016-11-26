@@ -1,0 +1,53 @@
+Arguments: 
+  /Users/ragingwind/.nvm/versions/node/v6.9.1/bin/node /usr/local/bin/yarn publish
+
+PATH: 
+  /Users/ragingwind/.nvm/versions/node/v6.9.1/bin:/Users/ragingwind/Go/gopath/bin:/usr/local/sbin:/Users/ragingwind/Android/sdk:/Users/Go/go_appengine:/Users/ragingwind/.rvm/gems/ruby-2.1.4/bin:/Users/ragingwind/bin/Sencha/Cmd/5.0.3.324:/Users/ragingwind/Workspace/nodejs-tasting/nodejs-tasting/examples/bin:/usr/local/google-cloud-sdk/bin:/usr/local/go_appengine:/usr/local/heroku/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/ragingwind/.rvm/gems/ruby-1.9.3-p551/bin:/Users/ragingwind/.rvm/gems/ruby-1.9.3-p551@global/bin:/Users/ragingwind/.rvm/rubies/ruby-1.9.3-p551/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Users/ragingwind/Go/gopath/bin:/usr/local/sbin:/Users/ragingwind/Android/sdk:/Users/Go/go_appengine:/Users/ragingwind/.rvm/gems/ruby-2.1.4/bin:/Users/ragingwind/bin/Sencha/Cmd/5.0.3.324:/Users/ragingwind/Workspace/nodejs-tasting/nodejs-tasting/examples/bin:/usr/local/google-cloud-sdk/bin:/usr/local/go_appengine:/usr/local/heroku/bin:/Users/ragingwind/.rvm/gems/ruby-1.9.3-p551/bin:/Users/ragingwind/.rvm/gems/ruby-1.9.3-p551@global/bin:/Users/ragingwind/.rvm/rubies/ruby-1.9.3-p551/bin:/Users/ragingwind/Downloads/Black2/Downloads/protexIP/bin:/Users/ragingwind/Downloads/protexIP/bin:/Users/ragingwind/bin:/Users/ragingwind/Android/sdk/platform-tools:/usr/local/bin/depot_tools:/Users/ragingwind/.rvm/bin:/Users/ragingwind/Android/sdk/platform-tools:/usr/local/bin/depot_tools:/Users/ragingwind/.rvm/bin
+
+Yarn version: 
+  0.16.1
+
+Node version: 
+  6.9.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "ragingwind",
+    "version": "1.0.0",
+    "description": "Return @ragingwind birthday",
+    "main": "index.js",
+    "scripts": {
+      "test": "node test.js"
+    },
+    "repository": {
+      "url": "https://github.com/ragingwind/ragingwind",
+      "type": "git"
+    },
+    "author": "ragingwind",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+bower manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ragingwind: Could not authenticate ragingwind
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/lib/util/request-manager.js:294:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:187:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:1048:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/0.16.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:969:12)
+      at emitNone (events.js:91:20)
+      at IncomingMessage.emit (events.js:185:7)
